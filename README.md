@@ -2,7 +2,7 @@
 
 A machine learning project using **Logistic Regression** to predict whether a customer will purchase a product based on their age and estimated salary.
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements a binary classification model that predicts customer purchase behavior from social network advertising data. The model uses user demographics (age and estimated salary) to classify whether a customer made a purchase (1) or did not make a purchase (0).
 
@@ -13,14 +13,14 @@ This project implements a binary classification model that predicts customer pur
 - **Target**: 1 binary class (Purchased: 0 or 1)
 - **Train/Test Split**: 75% / 25%
 
-## 🎯 Project Goals
+## Project Goals
 
 1. Build a logistic regression classifier for binary purchase prediction
 2. Preprocess and scale features for optimal model performance
 3. Evaluate model accuracy and generate confusion matrix
 4. Demonstrate complete ML pipeline: data loading → preprocessing → training → evaluation
 
-## 🛠️ Technologies & Libraries
+## Technologies & Libraries
 
 - **Python 3**
 - **NumPy** - Numerical computing
@@ -34,7 +34,7 @@ This project implements a binary classification model that predicts customer pur
 - **Matplotlib** - Data visualization
 - **Google Colab** - Development environment
 
-## 📊 Model Pipeline
+## Model Pipeline
 
 ### 1. **Data Loading**
    - Import the Social_Network_Ads.csv dataset
@@ -58,7 +58,7 @@ This project implements a binary classification model that predicts customer pur
    - Confusion Matrix: True positives, True negatives, False positives, False negatives
    - Accuracy Score: Overall model performance percentage
 
-## 🚀 How to Use
+## How to Use
 
 ### Run in Google Colab
 ```
@@ -81,7 +81,7 @@ jupyter notebook purchase_prediction_logistic_regression_model.ipynb
 - Place `Social_Network_Ads.csv` in the same directory as the notebook
 - Dataset columns: `Age`, `EstimatedSalary`, `Purchased`
 
-## 📈 Model Performance
+## Model Performance
 
 The model is evaluated using:
 
@@ -96,7 +96,7 @@ The model is evaluated using:
   - False Negatives (FN): Incorrectly predicted no purchase
   - True Positives (TP): Correctly predicted purchase
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Purchase-Prediction-Logistic-Regression-Model/
@@ -105,7 +105,7 @@ Purchase-Prediction-Logistic-Regression-Model/
 └── Social_Network_Ads.csv
 ```
 
-## 💡 Key Concepts
+## Key Concepts
 
 ### Logistic Regression
 - Supervised learning algorithm for binary classification
@@ -122,7 +122,7 @@ Purchase-Prediction-Logistic-Regression-Model/
 - 25% test data: Used for unbiased performance evaluation
 - Prevents overfitting and provides realistic accuracy estimate
 
-## 🔍 Model Insights
+## Model Insights
 
 The model learns relationships between:
 - **Age** - Customer age in years
@@ -131,7 +131,7 @@ The model learns relationships between:
 
 The decision boundary is learned during training to optimally separate customers who purchased from those who didn't.
 
-## ✨ Future Improvements
+## Future Improvements
 
 - Add additional features (e.g., gender, location, user ID)
 - Implement cross-validation for robust performance estimation
@@ -141,15 +141,15 @@ The decision boundary is learned during training to optimally separate customers
 - Add ROC-AUC curve analysis
 - Implement ROC curve and precision-recall metrics
 
-## 📝 License
+## License
 
 This project is open source and available for educational purposes.
 
-## 👤 Author
+## Author
 
 **Rebexcode** - [GitHub Profile](https://github.com/Rebexcode)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Scikit-learn documentation and tutorials
 - Google Colab for computational resources
