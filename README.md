@@ -1,0 +1,1 @@
+# Purchase-Prediction-Logistic-Regression-Model
